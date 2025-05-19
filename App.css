@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #f6f8fa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.App {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 28px 32px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.09);
+}
+.app-header {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #1976d2;
+  padding: 16px 0 8px 10px;
+  background: #f5faff;
+  border-bottom: 2px solid #e3e3e3;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.app-header .subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  margin-left: 10px;
+}
+
+h2, h3 {
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 18px;
+}
+
+label {
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 16px;
+  font-size: 1rem;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+input, select {
+  padding: 7px 10px;
+  margin: 5px 8px 10px 0;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.15s;
+}
+
+input:focus, select:focus {
+  border: 1.5px solid #1976d2;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0 28px 0;
+  background: #fafcff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background: #f0f4f8;
+  font-weight: 700;
+  color: #1976d2;
+}
+
+tr:nth-child(even) {
+  background: #f7fbfc;
+}
+
+tr:hover {
+  background: #e3f2fd;
+  transition: background 0.2s;
+}
+
+form {
+  margin: 20px 0;
+  padding: 18px 16px;
+  background: #f7f9fa;
+  border: 1.5px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+form input, form select {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .App {
+    padding: 10px;
+    max-width: 100%;
+  }
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  th, td {
+    padding: 8px 6px;
+  }
+  th {
+    background: #f0f4f8;
+    color: #1976d2;
+  }
+}
